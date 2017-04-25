@@ -10,7 +10,7 @@ $ ssh -i /path/to/key ubuntu@your-instance.compute-1.amazonaws.com
 
 3. Install Salt on this machine:
 ```
-$ sudo apt-get install salt-master salt-minion
+$ sudo apt-get -y install salt-master salt-minion
 ```
 
 4. Copy Salt States to /srv:
