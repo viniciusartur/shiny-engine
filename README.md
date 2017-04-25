@@ -47,7 +47,7 @@ $ sudo systemctl restart salt-minion
 
 9. Accept key from Minion:
 ```
-$ sudo salt-key -A
+$ sudo salt-key -A -y
 ```
 
 10. Apply the states:
